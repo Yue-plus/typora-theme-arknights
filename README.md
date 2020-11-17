@@ -4,43 +4,12 @@
 
 ## 参与开发
 
-### 可能需要的文档
+欢迎[提交反馈](https://github.com/Yue-plus/typora-theme-arknights/issues/new) & [发起 PR](https://github.com/Yue-plus/typora-theme-arknights/pulls)
 
-- [SASS 中文网](https://www.sass.hk/)
+> `html-preview` 文件夹源于 <https://github.com/typora/typora-theme-toolkit>
 
-### 环境配置
-
-<!--
-- 安装好 [Node.js](https://nodejs.org/en/download/) 环境。
-  + > 推荐使用 [淘宝 NPM 镜像](https://developer.aliyun.com/mirror/NPM)
--->
-- 安装好 [VScode](https://code.visualstudio.com/) 代码编辑器
-- 参考使用 [Visual Studio Code 插件 Live Sass Compiler 可将 Sass 或 Scss 实时编译为 CSS](https://www.sass.hk/skill/sass154.html) 使用以下参数配置插件：
-
-  ```json
-  "liveSassCompile.settings.autoprefix": [],
-  "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.formats":[
-
-      // 扩展
-      {
-          "format": "compact",//可定制的出口CSS样式（expanded，compact，compressed，nested）
-          "extensionName": ".css",//编译后缀名
-          "savePath": "/"//编译保存的路径
-      } 
-      
-  ],
-
-  "liveSassCompile.settings.excludeList": [
-      "**/node_modules/**",
-      ".vscode/**"
-   ],
-  ```
-- 在 **cmd** 中使用 [`mklink`](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/mklink) 指令创建符号连接到仓库目录，方便调试：
-
-  ```cmd
-  mklink <Typora 主题目录>/arknights.css <仓库目录>/arknights.css
-  ```
+- [如何為 Typora 撰寫客製化樣式](https://pjchender.github.io/2018/04/24/note-%E5%A6%82%E4%BD%95%E7%82%BA-typora-%E6%92%B0%E5%AF%AB%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%A8%A3%E5%BC%8F/)
+- [Write Custom Theme for Typora](http://theme.typora.io/doc/Write-Custom-Theme/)
 
 ## 友情链接
 
