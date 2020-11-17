@@ -1,1 +1,60 @@
-/* No CSS */
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #c4c4c4;
+  margin: 0;
+  background-image: url(./arknights/bg.jpg);
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "JetBrains Mono", 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+content {
+  background-color: transparent;
+}
+
+#outline-content {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#write {
+  color: #c4c4c4;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#typora-source .CodeMirror-lines {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#typora-sidebar .sidebar-tabs {
+  background-color: #22bbff;
+}
+
+#sidepanel-segmented-input-outline {
+  color: #ffffff;
+}
+
+#sidebar-content {
+  background-color: #c4c4c4;
+}
+
+#sidebar-content .outline-label {
+  color: #22bbff;
+}
+
+#file-library-list-children {
+  color: #c4c4c4;
+  background-color: rgba(0, 0, 0, 0.9);
+}
