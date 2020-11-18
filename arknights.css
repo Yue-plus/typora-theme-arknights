@@ -20,8 +20,37 @@ code, pre {
   font-family: 'BenderLight';
 }
 
-html, body {
-  height: 100%;
+html {
+  --bg-color: rgba(0, 0, 0, 0.9) !important;
+  --text-color: #ffffff !important;
+  --code-block-bg-color: inherit !important;
+  --md-char-color: rgba(0, 0, 0, 0.9) !important;
+  --meta-content-color: #22bbff !important;
+  --blur-text-color: #ffffff !important;
+  --drag-placeholder-color: rgba(0, 0, 0, 0.9) !important;
+  --panel-border-color: #22bbff !important;
+  --active-toggle-btn-color: #22bbff !important;
+  --table-border-color: #22bbff !important;
+  --primary-color: #22bbff !important;
+  --primary-btn-border-color: #22bbff !important;
+  --primary-btn-text-color: #ffffff !important;
+  --search-select-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --search-select-text-color: #ffffff !important;
+  --heading-char-color: rgba(0, 0, 0, 0.9) !important;
+  --color-popover-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --control-text-color: #ffffff !important;
+  --control-text-hover-color: #ffffff !important;
+  --window-border: 1px solid rgba(0, 0, 0, 0.9) !important;
+  --active-file-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --active-file-text-color: inherit !important;
+  --active-file-border-color: #22bbff !important;
+  --focus-ring-color: #22bbff !important;
+  --side-bar-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --item-hover-bg-color: rgba(255, 255, 255, 0.3) !important;
+  --item-hover-text-color: inherit !important;
+  --side-bar-menu-active-tint: var(--side-bar-menu-active-tint) !important;
+  --mac-title-bar-height: 20px !important;
+  --sidebar-width: 270px !important;
 }
 
 html {
@@ -46,6 +75,10 @@ html {
   background-color: #9b8b16;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   color: #c4c4c4;
   margin: 0;
@@ -65,6 +98,15 @@ h1, h2 {
   text-align: center;
 }
 
+a {
+  color: #22bbff;
+}
+
+pre {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
 content {
   background-color: transparent;
 }
@@ -82,6 +124,43 @@ content {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+html {
+  --bg-color: rgba(0, 0, 0, 0.9) !important;
+  --text-color: #ffffff !important;
+  --code-block-bg-color: inherit !important;
+  --md-char-color: rgba(0, 0, 0, 0.9) !important;
+  --meta-content-color: #22bbff !important;
+  --blur-text-color: #ffffff !important;
+  --drag-placeholder-color: rgba(0, 0, 0, 0.9) !important;
+  --panel-border-color: #22bbff !important;
+  --active-toggle-btn-color: #22bbff !important;
+  --table-border-color: #22bbff !important;
+  --primary-color: #22bbff !important;
+  --primary-btn-border-color: #22bbff !important;
+  --primary-btn-text-color: #ffffff !important;
+  --search-select-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --search-select-text-color: #ffffff !important;
+  --heading-char-color: rgba(0, 0, 0, 0.9) !important;
+  --color-popover-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --control-text-color: #ffffff !important;
+  --control-text-hover-color: #ffffff !important;
+  --window-border: 1px solid rgba(0, 0, 0, 0.9) !important;
+  --active-file-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --active-file-text-color: inherit !important;
+  --active-file-border-color: #22bbff !important;
+  --focus-ring-color: #22bbff !important;
+  --side-bar-bg-color: rgba(0, 0, 0, 0.9) !important;
+  --item-hover-bg-color: rgba(255, 255, 255, 0.3) !important;
+  --item-hover-text-color: inherit !important;
+  --side-bar-menu-active-tint: var(--side-bar-menu-active-tint) !important;
+  --mac-title-bar-height: 20px !important;
+  --sidebar-width: 270px !important;
+}
+
+#typora-sidebar {
+  background-color: #000000;
+}
+
 #typora-sidebar .sidebar-tabs {
   background-color: #22bbff;
   border-bottom: none;
@@ -95,8 +174,24 @@ content {
   background-color: #c4c4c4;
 }
 
-#sidebar-content .outline-label {
+#sidebar-content .outline-item {
+  transition: .1s;
+}
+
+#sidebar-content .outline-item .outline-label {
   color: #22bbff;
+}
+
+#sidebar-content .outline-item:hover {
+  margin: 0 -18px;
+  border-left: 3px solid #22bbff;
+  padding-left: 29px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#sidebar-content .outline-item:hover .outline-label {
+  color: #22bbff;
+  text-decoration: none;
 }
 
 #sidepanel-segmented-input-outline {

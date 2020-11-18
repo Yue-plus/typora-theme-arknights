@@ -8,3 +8,39 @@ $bg-3: rgba($bg, .3)
 $bg-6: rgba($bg, .6)
 $bg-8: rgba($bg, .8)
 $bg-9: rgba($bg, .9)
+$bg-hover: rgba(#ffffff, .3)
+
+// 强制重写 Typora 默认的颜色属性
+html
+    --bg-color: #{$bg-9} !important
+    --text-color: #{$important-text} !important
+    --code-block-bg-color: inherit !important
+
+    --md-char-color: #{$bg-9} !important
+    --meta-content-color: #{$primary} !important
+    --blur-text-color: #{$important-text} !important
+
+    --drag-placeholder-color: #{$bg-9} !important
+    --panel-border-color: #{$primary} !important
+    --active-toggle-btn-color: #{$primary} !important
+    --table-border-color: #{$primary} !important
+    --primary-color: #{$primary} !important
+    --primary-btn-border-color: #{$primary} !important
+    --primary-btn-text-color: #{$important-text} !important
+    --search-select-bg-color: #{$bg-9} !important
+    --search-select-text-color: #{$important-text} !important
+    --heading-char-color: #{$bg-9} !important
+    --color-popover-bg-color: #{$bg-9} !important
+    --control-text-color: #{$important-text} !important
+    --control-text-hover-color: #{$important-text} !important
+    --window-border: 1px solid #{$bg-9} !important
+    --active-file-bg-color: #{$bg-9} !important
+    --active-file-text-color: inherit !important
+    --active-file-border-color: #{$primary} !important
+    --focus-ring-color: #{$primary} !important
+    --side-bar-bg-color: #{$bg-9} !important
+    --item-hover-bg-color: #{$bg-hover} !important
+    --item-hover-text-color: inherit !important
+    --side-bar-menu-active-tint: var(--side-bar-menu-active-tint) !important
+    --mac-title-bar-height: 20px !important
+    --sidebar-width: 270px !important
