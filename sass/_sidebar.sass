@@ -3,21 +3,28 @@
 #typora-sidebar
     .sidebar-tabs
         background-color: $primary
-    
-#sidepanel-segmented-input-outline
-    color: $h1-6
-
-#info-panel-tab-outline
-    .info-panel-tab-title
+        border-bottom: none
+    .info-panel-tab-wrapper
         color: $primary
-    .info-panel-tab-border
-        background-color: $primary
 
 #sidebar-content
     background-color: $text
     .outline-label
         color: $primary
 
+#sidepanel-segmented-input-outline
+    color: $important-text
+    border: none
+
+#info-panel-tab-outline
+    .info-panel-tab-title
+        color: $primary
+    .info-panel-tab-border
+        &:hover
+            background-color: $primary
+
 #file-library-list-children
     color: $text
     background-color: $bg-9
+    .file-list-item-file-name-part
+        color: $important-text

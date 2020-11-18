@@ -1,5 +1,49 @@
+@font-face {
+  font-family: BenderLight;
+  src: local("Bender"), url("./arknights/BenderLight.ttf");
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local("JetBrains Mono"), url("./arknights/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+body {
+  font-family: 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono';
+}
+
+#sidepanel-segmented-input-outline {
+  font-family: 'BenderLight';
+}
+
 html, body {
   height: 100%;
+}
+
+html {
+  -ms-scrollbar-base-color: #fe2;
+  -ms-scrollbar-track-color: #69620a;
+  scrollbar-width: thin;
+  scrollbar-color: #fe2 #69620a;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fe2;
+  border-radius: .25em;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: .25em;
+  background-color: #9b8b16;
 }
 
 body {
@@ -13,7 +57,7 @@ body {
   font-family: "JetBrains Mono", 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, strong, code, pre {
   color: #ffffff;
 }
 
@@ -31,7 +75,7 @@ content {
 
 #write {
   color: #c4c4c4;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #typora-source .CodeMirror-lines {
@@ -40,10 +84,11 @@ content {
 
 #typora-sidebar .sidebar-tabs {
   background-color: #22bbff;
+  border-bottom: none;
 }
 
-#sidepanel-segmented-input-outline {
-  color: #ffffff;
+#typora-sidebar .info-panel-tab-wrapper {
+  color: #22bbff;
 }
 
 #sidebar-content {
@@ -54,7 +99,24 @@ content {
   color: #22bbff;
 }
 
+#sidepanel-segmented-input-outline {
+  color: #ffffff;
+  border: none;
+}
+
+#info-panel-tab-outline .info-panel-tab-title {
+  color: #22bbff;
+}
+
+#info-panel-tab-outline .info-panel-tab-border:hover {
+  background-color: #22bbff;
+}
+
 #file-library-list-children {
   color: #c4c4c4;
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+#file-library-list-children .file-list-item-file-name-part {
+  color: #ffffff;
 }
