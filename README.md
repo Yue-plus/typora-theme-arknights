@@ -4,6 +4,9 @@
 
 ## 参与开发
 
+> 点击 Typora 的 文件 > 偏好设置 > 通用 > 勾选“开启调试模式”
+> 然后再文本编辑区右键会多出一个检查元素，然后就可以像在浏览器中调 css 一样
+
 欢迎[提交反馈](https://github.com/Yue-plus/typora-theme-arknights/issues/new) & [发起 PR](https://github.com/Yue-plus/typora-theme-arknights/pulls)
 
 ### 可能需要的文档
@@ -26,9 +29,12 @@
 
       // 扩展
       {
-          "format": "expanded",//可定制的出口CSS样式（expanded，compact，compressed，nested）
-          "extensionName": ".css",//编译后缀名
-          "savePath": "/"//编译保存的路径
+          //可定制的出口CSS样式（expanded，compact，compressed，nested）
+          "format": "expanded",
+          //编译后缀名
+          "extensionName": ".css",
+          //编译保存的路径；在偏好设置 > 外观 > 打开主题文件夹
+          "savePath": "C:\\Users\\Yue_plus\\AppData\\Roaming\\Typora\\themes"
       } 
       
   ],
