@@ -5,7 +5,7 @@
 .cm-s-typora-default .cm-header, 
 .cm-s-typora-default .cm-property
 {
-    color: #cebcca;
+    color: white;
 }
 
 .CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
@@ -13,15 +13,15 @@
 }
 
 .cm-s-typora-default .cm-comment {
-    color: #111111;
+    color: #fe2;
 }
 
 .cm-s-typora-default .cm-string {
-    color: #111111
+    color: #fe2;
 }
 
 .cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
-    color: #848695;
+    color: white;
     font-style: italic;
 }
 
@@ -34,5 +34,5 @@
 }
 
 .cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
-	color: #111111;
+	color: #fe2;
 }

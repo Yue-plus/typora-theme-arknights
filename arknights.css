@@ -1,6 +1,6 @@
-@import "night/mermaid.dark.css";
-@import "night/codeblock.dark.css";
-@import "night/sourcemode.dark.css";
+@import "arknights/mermaid.dark.css";
+@import "arknights/codeblock.dark.css";
+@import "arknights/sourcemode.dark.css";
 
 :root {
     --bg-color:  #111111;
@@ -37,7 +37,7 @@ html,
 body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background: #363B40;
+    background: #111111;
     background: var(--bg-color);
     fill: currentColor;
     line-height: 1.625rem;
@@ -73,11 +73,11 @@ div.code-tooltip-content {
 
 div.code-tooltip,
 .md-hover-tip .md-arrow:after {
-    background: #333;
+    background: #111;
 }
 
 .popover.bottom > .arrow:after {
-    border-bottom-color: #333;
+    border-bottom-color: #111;
 }
 
 html,
@@ -101,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lucida Grande", "Corbel", sans-serif;
+    font-family: "JetBrains Mono", "Microsoft YaHei", sans-serif;
     font-weight: normal;
     clear: both;
     -ms-word-wrap: break-word;
@@ -837,6 +837,9 @@ footer {
     color: #686868 !important;
 }
 
+#typora-source .CodeMirror-linenumber {
+    visibility: visible;
+}
 
 /*diagrams*/
 #write .md-focus .md-diagram-panel {
