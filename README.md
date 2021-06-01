@@ -10,11 +10,13 @@
 
    ![打开主题文件夹](./img/use1.jpg)
 
-3. 将 `arknights.css` 文件与 `arknights/` 目录复制到 **主题文件夹中**
+3. 将 `arknights.css` 文件与 `arknights\` 目录复制到 **主题文件夹中**
 
 4. 重启 Typora 后应用主题
 
    ![应用主题](./img/use2.jpg)
+
+5. [JetBrainsMono 字体](https://github.com/JetBrains/JetBrainsMono)，可以在 `arknights\JetBrainsMono-2.225\fonts\ttf` 目录中找到并在电脑上安装（可能不是最新版）。
 
 > 参考 [安装主题](https://theme.typora.io/doc/Install-Theme/)
 
