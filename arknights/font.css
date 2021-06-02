@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(./JetBrainsMono-2.225/fonts/webfonts/JetBrainsMono-Medium.woff2);
+}
+
+@font-face {
+    font-family: "BenderLight";
+    src: url(./BenderLight.ttf);
+}

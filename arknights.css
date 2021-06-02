@@ -1,6 +1,7 @@
 @import "arknights/mermaid.dark.css";
 @import "arknights/codeblock.dark.css";
 @import "arknights/sourcemode.dark.css";
+@import "arknights/font.css";
 
 :root {
     --bg-color:  #111111;
@@ -86,7 +87,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "JetBrains Mono", "Microsoft YaHei", Helvetica, Arial, sans-serif;
 }
 
 hr {
@@ -321,7 +322,7 @@ kbd,
 tt,
 var {
     font-size: 0.875em;
-    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-family: "JetBrains Mono", Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
 code,
@@ -412,6 +413,10 @@ strong {
     /* variable */
 }
 
+strong em {
+    color: red;
+}
+
 mark {
     background: #D3D40E;
 }
@@ -500,10 +505,14 @@ td {
 }
 
 #write pre.md-meta-block {
+    color: #2bf;
+    font-size: medium;
+    font-weight: 900;
     border-bottom: 1px dashed #ccc;
     background: transparent;
     padding-bottom: 0.6em;
     line-height: 1.6em;
+    font-family: "BenderLight", "Microsoft YaHei", sans-serif;;
 }
 
 .btn,
